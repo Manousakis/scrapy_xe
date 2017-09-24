@@ -35,6 +35,7 @@ class XePipeline(object):
         for col in colList:
             if self.df[col].isnull().all():
                 logger.warning("Found Null Field, in file " + filename +": " + col)
+        # This line is a test
 
     def process_item(self, item, spider):
         self.df = self.df.append(item,ignore_index=True)

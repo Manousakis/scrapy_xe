@@ -4,3 +4,13 @@ project.egg-info/SOURCES.txt
 project.egg-info/dependency_links.txt
 project.egg-info/entry_points.txt
 project.egg-info/top_level.txt
+xe/__init__.py
+xe/items.py
+xe/middlewares.py
+xe/pipelines.py
+xe/settings.py
+xe/spiders/__init__.py
+xe/spiders/hr.py
+xe/spiders/hs.py
+xe/spiders/lr.py
+xe/spiders/ls.py

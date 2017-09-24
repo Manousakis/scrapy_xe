@@ -6,7 +6,6 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 import logging
-import smtplib
 
 class XePipeline(object):
 

@@ -11,7 +11,7 @@ class hs(CrawlSpider):
     download_delay = 2
     allowed_domains = ["xe.gr"]
 
-    start_urls = ["http://www.xe.gr/property/search?Publication.age=1&System.item_type=re_residence&Transaction.type_channel=117518&page=1&per_page=50"]
+    start_urls = ["http://www.xe.gr/property/search?Publication.age=3&System.item_type=re_residence&Transaction.type_channel=117518&page=1&per_page=50"]
 
     rules = (Rule(LxmlLinkExtractor(allow_domains = ('xe.gr'), restrict_xpaths = ("//a[@class='white_button right']")), callback='parse_start_url', follow=True),)
 
